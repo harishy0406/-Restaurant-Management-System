@@ -19,8 +19,7 @@ A Python-based Restaurant Management System built using Tkinter for the GUI and 
 To run this project locally, follow these steps:
 
 1. Clone the repository
-git clone (https://github.com/harishy0406/HarishPortfolio)
-
+git clone (https://github.com/harishy0406/Restaurant-Management-System)
 2. Install dependencies:
 pip install pillow
 
