@@ -1,12 +1,63 @@
-# Restaurant-Management-System
-A Python-based Restaurant Management System built using Tkinter for the GUI and MySQL for my Class 12th CS project. Streamlines table reservations, order processing, and inventory tracking. 📋🐍
+# Restaurant Management System 🍽️
 
-## Features:
-- User-friendly Interface: Easy-to-use GUI for managing restaurant orders and records.✨ 
-- Database Integration: SQLite database backend for storing and managing data.📊 
-- Dynamic Background: Displays a dynamic background image on the main interface.🖼️ 
+## Description 📝
+The Restaurant Management System is a Python-based application developed using Tkinter for the graphical user interface (GUI) and MySQL for the database. This system is designed to streamline table reservations, order processing, and inventory tracking. It was created as a project for my Class 12th Computer Science course.
 
-## Screenshots
+## Features ✨
+- Table reservations 📅
+- Order processing 📝
+- Inventory tracking 📦
+- User-friendly GUI 🎨
+
+## Installation ⚙️
+
+### Prerequisites
+- [Python](https://www.python.org/downloads/) 🐍
+- [Tkinter](https://docs.python.org/3/library/tkinter.html) (usually included with Python)
+- [MySQL](https://www.mysql.com/downloads/)
+- [XAMPP](https://www.apachefriends.org/index.html) (for managing MySQL server)
+
+### Setup
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/yourusername/Restaurant-Management-System.git
+    ```
+
+2. **Install required Python packages:**
+    ```bash
+    pip install mysql-connector-python
+    pip install tkinter
+    ```
+
+3. **Setup XAMPP:**
+    - Start Apache and MySQL modules in XAMPP control panel.
+    - Open phpMyAdmin and create a database named `restaurant_db`.
+    - Import the `restaurant_db.sql` file located in the project's `db` directory to set up the database schema and initial data.
+
+4. **Configure database connection:**
+    - Open `db_connection.py` file.
+    - Update the database host, user, password, and database name as per your XAMPP setup.
+    ```python
+    db_config = {
+        'host': 'localhost',
+        'user': 'root',
+        'password': '',
+        'database': 'restaurant_db'
+    }
+    ```
+
+## Usage 🚀
+1. **Run the project:**
+    ```bash
+    python main.py
+    ```
+
+2. **Navigate through the system:**
+    - Use the GUI to manage table reservations, process orders, and track inventory.
+
+## Snapshots 📸
+Here are some snapshots of the project:
+
 ![image](https://github.com/harishy0406/Restaurant-Management-System/assets/142865295/d656bb1b-e8b3-4e23-9e33-40251e39b925)
 
 
@@ -15,19 +66,7 @@ A Python-based Restaurant Management System built using Tkinter for the GUI and 
 ![image](https://github.com/harishy0406/Restaurant-Management-System/assets/142865295/c6959ac1-ce5d-4164-aa72-88ba443e3ca1)
 
 
-## Installation
-To run this project locally, follow these steps:
-
-1. Clone the repository
-git clone (https://github.com/harishy0406/Restaurant-Management-System)
-2. Install dependencies:
-pip install pillow
-
-3. Usage
-Run the application: python RestaurentManagementSystem.py
+Thank you for visiting my Restaurant Management System project! 😊 Feel free to explore and reach out if you have any questions or opportunities. 📫
 
 
-## Contributing
-Contributions are welcome! Please fork the repository and create a pull request with your suggested changes.
 
-Thank you for visiting my RestaurentManagementSystem! 😊 Feel free to explore and reach out if you have any questions or opportunities. 📫
