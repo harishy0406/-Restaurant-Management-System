@@ -1,4 +1,4 @@
-# Restaurant Management System 🍽️
+# Restaurant Management System 🍽️✨
 
 ## Description 📝
 The Restaurant Management System is a Python-based application developed using Tkinter for the graphical user interface (GUI) and MySQL for the database. This system is designed to streamline table reservations, order processing, and inventory tracking. It was created as a project for my Class 12th Computer Science course.🐍
